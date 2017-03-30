@@ -1,0 +1,16 @@
+INDTRODUCCION.
+  Es implementacion parcial del protocolo "semac" utilizado para comunicarse con
+  el control de acceso PCT-100. De momento solo interesan algunas funciones por 
+  lo que no es una implementacion completa.
+
+
+NOTAS.
+  Ademas de usar el protocolo el control de acceso tiene un servidor web embebido
+  del cual se pueden obteber los datos. Mas abajo estan los ejemplos del listado
+  de lecturas de tarjetas magneticas entre fechas dadas.
+
+  Ejemplos)
+    1) http://192.168.1.156/if.cgi?redirect=UserLog.htm&failure=fail.htm&type=search_user_log&type=1&sel=1&u_id=&even=0&even=0&even=0&even=0&even=0&year=16&mon=04&day=01&year=16&mon=12&day=29&card=0&card=0&card=0&card=0&card=0&card=0&card=0&card=0&fun_t=0&e_t=0
+    2) http://192.168.1.156/if.cgi?redirect=UserLog.htm&failure=fail.htm&type=search_user_log&type=1&sel=1&u_id=&even=0&even=0&even=0&even=0&even=0&year=16&mon=04&day=01&year=16&mon=12&day=29&card=0&card=0&card=0&card=0&card=0&card=0&card=0&card=0&fun_t=1&e_t=0
+
+
